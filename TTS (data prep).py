@@ -9,6 +9,8 @@ from datasets import Audio
 import librosa
 import soundfile as sf
 from sklearn.model_selection import train_test_split
+from nemo.collections.tts.models import Tacotron2Model
+from nemo.collections.tts.models.base import SpectrogramGenerator
 
 lj_speech = load_dataset("lj_speech")
 
