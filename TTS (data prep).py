@@ -8,26 +8,27 @@ from datasets import load_dataset
 from datasets import Audio
 import librosa
 import soundfile as sf
+from sklearn.model_selection import train_test_split
 
-dataset = load_dataset("lj_speech")
+lj_speech = load_dataset("lj_speech")
 
 
 # In[33]:
 
-
-print(dataset)
+#train_test_ds = datasets.load_dataset("lj_speech", split="train+test")
+print(lj_speech)
 
 
 # In[34]:
 
 
-dataset = dataset.cast_column("audio", Audio(sampling_rate=22050))
+lj_speech = lj_speech.cast_column("audio", Audio(sampling_rate=22050))
 
 
 # In[31]:
 
 
-print(dataset["train"][0])
+print(lj_speech["train"][0])
 
 
 # In[12]:
@@ -52,7 +53,7 @@ def prepare_dataset(batch):
 # In[18]:
 
 
-lj_speech = dataset.map(prepare_dataset, remove_columns=dataset["train"].column_names)
+lj_speech = lj_speech.map(prepare_dataset, remove_columns=lj_speech["train"].column_names)
 
 
 # In[ ]:
