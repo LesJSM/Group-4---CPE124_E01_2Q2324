@@ -7,6 +7,8 @@ This repository contains a Tkinter-based GUI for Text-to-Speech (TTS) inference 
 ### Prerequisites
 
 - Python 3.7.9
+- [Download TTS Model](https://drive.google.com/file/d/1-5bqoCPqDSsZrpR-9PpBYipDP3UrP-lz/view?usp=drive_link)
+- [Download HiFigan Model](https://drive.google.com/file/d/1-5bqoCPqDSsZrpR-9PpBYipDP3UrP-lz/view?usp=drive_link)
 
 ### Clone the Repository
 
