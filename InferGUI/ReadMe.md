@@ -11,7 +11,7 @@ This repository contains a Tkinter-based GUI for Text-to-Speech (TTS) inference 
 ### Clone the Repository
 
 ```bash
-git clone https://github.com/LesJSM/Group-4---CPE124_E01_2Q2324)https://github.com/LesJSM/Group-4---CPE124_E01_2Q2324
+git clone https://github.com/LesJSM/Group-4---CPE124_E01_2Q2324
 cd your-repository
 ```
 
