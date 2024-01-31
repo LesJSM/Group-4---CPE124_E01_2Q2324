@@ -15,23 +15,34 @@ git clone https://github.com/LesJSM/Group-4---CPE124_E01_2Q2324)https://github.c
 cd your-repository
 ```
 
-### Set Up Virtual Environment
-# On Windows
+# Set Up Virtual Environment
+### On Windows
+```bash
 python -m venv venv
+```
 
-# On macOS/Linux
+### On macOS/Linux
+```bash
 python3 -m venv venv
+```
 
-### Activate Virtual Environment
-# On Windows
+# Activate Virtual Environment
+### On Windows
+```bash
 venv\Scripts\activate
+```
 
-# On macOS/Linux
+### On macOS/Linux
+```bash
 source venv/bin/activate
+```
 
-###Install Dependencies
+#Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
-###Run
+#Run
+```bash
 python GUI.py
-
+```
